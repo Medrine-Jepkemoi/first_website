@@ -12,7 +12,23 @@
         <h1>Contact Us</h1>
         <p>Feel free to reach out. We are excited to bring your vision to light!</p>
         <div>
-            <input type="text">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" value="">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Enter your email" value="">
+                <label for="projecttype">Type of project</label>
+                <select name="projecttype" id="projecttype">
+                    <option value="default"></option>
+                    <option value="webdev">Web Dev</option>
+                    <option value="mobiledev">Mobile Dev</option>
+                </select>
+                <label for="moredetails">Additonal Details</label>
+                <input type="text" name="moredetails" id="moredetails" placeholder="Enter additional information" value="">
+                <div>
+                    <input type="button" name="button" id="button" value="Submit">
+                </div>
+            </form>
         </div>
     </div>
     

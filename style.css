@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 .header{
     color: white;
     font-size: 55px;
     text-align: center;
     margin-left: 150px;
-    
 }
-
  .banner-card img{
     width: 100%;
     height: auto;
@@ -16,94 +13,13 @@
     font-weight: bold;
     margin-bottom: 10px;
  }
-
  .banner-text{
 position: absolute;
 top: 10%;
 justify-content: center;
-
  }
  .banner-text p{
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 10px;
  }
- .pop{
-   margin-left: 300px;
-   color: white;
- }
-
- 
-=======
-#contact{
-    height: 100vh;
-    width: 100vw;
-    display: block;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-#header{
-    color: rgb(11, 11, 88);;
-    font-size: 45px;
-    font-weight: bold;
-    font-style: italic;
-    
-}
-
-#par{
-    color: rgb(11, 11, 88);
-    font-style: italic;
-    font-size: 30px;
-}
-
-#entireform{
-    font-size: 20px;
-    
-}
-
-
-input{
-    box-sizing: border-box;
-    padding: 8px 12px;
-    border-width: 4px;
-    border-style: solid;
-    border-radius: 50px;
-    border-color: rgb(11, 11, 88);
-    width: 40%;
-    margin-top: 20px;
-    font-size: 20px;
-    
-}
-
-#input{
-    color: rgb(11, 11, 88);
-}
-
-#button{
-    background-color: rgb(11, 11, 88);
-    color: aliceblue;
-    font-size: 20px;
-}
-
-select{
-    box-sizing: border-box;
-    padding: 8px 12px;
-    border-width: 4px;
-    border-style: solid;
-    border-radius: 50px;
-    border-color: rgb(11, 11, 88);
-    box-shadow: none;
-    width: 40%;
-    margin-top: 20px;
-    font-size: 20px;
-
-}
-
-#footer{
-    font-size: 25px;
-    display: block;
-    text-align: center;
-    color: rgb(11, 11, 88);
-}
->>>>>>> 2c6daca (styling)

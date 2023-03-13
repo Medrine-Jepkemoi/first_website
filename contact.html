@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -13,23 +14,25 @@
         <p id="par">Feel free to reach out. We are excited to bring your vision to light!</p>
         <div id="entireform">
             <form action="">
-                <div id="fullcolumn">
-                    <div class="halfcolumn">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Enter your name" value="">
+                <div id="buttonsize">
+                    <div id="fullcolumn">
+                        <div class="halfcolumn">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Enter your name" value="">
+                        </div>
+                        <div class="halfcolumn">   
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="Enter your email" value="">
+                        </div> 
                     </div>
-                    <div class="halfcolumn">   
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="Enter your email" value="">
-                    </div> 
-                </div>
-                <div id="type">
-                    <label for="projecttype">Type of project</label>
-                    <select name="projecttype" id="projecttype">
-                        <option value="default"></option>
-                        <option value="webdev">Web Dev</option>
-                        <option value="mobiledev">Mobile Dev</option>
-                    </select>
+                    <div id="type">
+                        <label for="projecttype">Type of project</label>
+                        <select name="projecttype" id="projecttype">
+                            <option value="default"></option>
+                            <option value="webdev">Web Dev</option>
+                            <option value="mobiledev">Mobile Dev</option>
+                        </select>
+                    </div>
                 </div>
                 <div id="details">
                     <label for="moredetails">Additonal Details</label>

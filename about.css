@@ -1,0 +1,56 @@
+
+.about {
+    color:azure
+}
+
+.paragraphsinabout{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    font-size:x-large;
+    font-weight:bold;
+    font-style:italic;
+    
+}
+
+    
+
+#whatwedoheading {
+    margin-left: 510px;
+    margin-right:510px;
+    font-size: xx-large;
+    font-weight:bolder;
+    font-style:italic;
+
+}
+
+#body{
+    background-image: url('https://media.istockphoto.com/id/531000632/vector/abstract-pattern-background.jpg?s=612x612&w=0&k=20&c=Iq2SfBjgaE1Rha6jniR6rYe3H3oGkVmhrRL8gcfvFgg=');
+    background-size: 100% 100%;
+  }
+
+  .intouch{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right:400px;
+    margin-bottom: 20px;
+    font-size:xx-large;
+    font-weight:bolder;
+    font-style:italic;
+
+  }
+
+  .flexiblenavbar{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content:left;
+    word-spacing: 60px;
+    overflow: hidden;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: rgb(61, 71, 71);
+    color: azure;
+    text-align: center;
+  }

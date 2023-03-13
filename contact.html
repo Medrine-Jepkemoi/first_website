@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -14,29 +15,20 @@
         <p id="par">Feel free to reach out. We are excited to bring your vision to light!</p>
         <div id="entireform">
             <form action="">
-                <div id="buttonsize">
-                    <div id="fullcolumn">
-                        <div class="halfcolumn">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Enter your name" value="">
-                        </div>
-                        <div class="halfcolumn">   
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" placeholder="Enter your email" value="">
-                        </div> 
-                    </div>
-                    <div id="type">
-                        <label for="projecttype">Type of project</label>
-                        <select name="projecttype" id="projecttype">
-                            <option value="default"></option>
-                            <option value="webdev">Web Dev</option>
-                            <option value="mobiledev">Mobile Dev</option>
-                        </select>
-                    </div>
-                </div>
-                <div id="details">
-                    <label for="moredetails">Additonal Details</label>
-                    <input type="text" name="moredetails" id="moredetails" placeholder="Enter additional information" value="">
+                <div class="input">
+                     
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" value=""><br>  
+                    <label for="email">Email</label><br>
+                    <input type="text" name="email" id="email" placeholder="Enter your email" value=""><br>
+                    <label for="projecttype">Type of project</label><br>
+                    <select name="projecttype" id="projecttype">
+                        <option value="default"></option>
+                        <option value="webdev">Web Dev</option>
+                        <option value="mobiledev">Mobile Dev</option>
+                    </select><br>
+                    <label for="moredetails">Additonal Details</label><br>
+                    <input type="text" name="moredetails" id="moredetails" placeholder="Enter additional information" value=""><br>
                 </div>
                 <div id="submit">
                     <input type="button" name="button" id="button" value="Submit">
@@ -44,6 +36,18 @@
             </form>
         </div>
     </div>
+
+    <footer>
+        <div id="footer">
+            <p>
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:medrinejepkemoi@gmail.com">medrinejepkemoi@gmail.com</a>
+            </p>
+            <p>
+                <a href="https://github.com/Medrine-Jepkemoi">Github</a>
+            </p>
+        </div>
+    </footer>
     
 </body>
 </html>

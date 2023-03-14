@@ -36,3 +36,111 @@ justify-content: center;
   }
 
 
+<<<<<<< HEAD
+=======
+input{
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(11, 11, 88);
+    width: 40%;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+#input{
+    color: rgb(11, 11, 88);
+}
+
+#button{
+    background-color: rgb(11, 11, 88);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+select{
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: rgb(11, 11, 88);
+    box-shadow: none;
+    width: 40%;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+#moredetails{
+    border-radius: px;
+}
+
+#footer{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    color: rgb(11, 11, 88);
+}
+
+
+
+.about {
+    color:azure
+}
+
+.paragraphsinabout{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    font-size:x-large;
+    font-weight:bold;
+    font-style:italic;
+    
+}
+
+    
+
+#whatwedoheading {
+    margin-left: 510px;
+    margin-right:510px;
+    font-size: xx-large;
+    font-weight:bolder;
+    font-style:italic;
+
+}
+
+#body{
+    background-image: url('https://media.istockphoto.com/id/531000632/vector/abstract-pattern-background.jpg?s=612x612&w=0&k=20&c=Iq2SfBjgaE1Rha6jniR6rYe3H3oGkVmhrRL8gcfvFgg=');
+    background-size: 100% 100%;
+  }
+
+  .intouch{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right:400px;
+    margin-bottom: 20px;
+    font-size:xx-large;
+    font-weight:bolder;
+    font-style:italic;
+
+  }
+
+  .flexiblenavbar{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content:left;
+    word-spacing: 60px;
+    overflow: hidden;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: rgb(61, 71, 71);
+    color: azure;
+    text-align: center;
+  }
+>>>>>>> 97db6a9d3af96aa6f9e5e3787c0b5f3fc6acec8a

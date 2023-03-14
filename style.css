@@ -136,6 +136,8 @@ select{
     font-size: xx-large;
     font-weight:bolder;
     font-style:italic;
+    justify-content: center;
+    text-align: center;
 
 }
 
@@ -159,12 +161,12 @@ select{
     
     margin-top: 20px;
     display: flex;
-    justify-content:left;
-    word-spacing: 60px;
+    justify-content:center;
+    word-spacing: 150px;
     overflow: hidden;
     padding-left: 400px;
     padding-right: 400px;
-    background-color: rgb(61, 71, 71);
-    color: azure;
+    /* background-color: rgb(61, 71, 71); */
+    color: white;
     text-align: center;
   }
